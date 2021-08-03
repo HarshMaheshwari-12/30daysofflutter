@@ -9,8 +9,18 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Material(
     
-        child: Center(child: Text("HOme Page"),
-        )
+        child: Column(
+          children :[
+              Image.asset("assets/image/login.png",
+              fit: BoxFit.cover),
+              Text("Welcome",
+              style: TextStyle(
+                fontSize: 22,
+                
+              ),)
+          ]
+        ),
+        
     );
   }
 }
